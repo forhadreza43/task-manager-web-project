@@ -13,7 +13,8 @@ body {
     radial-gradient(circle at 50% 20%, #e7c6ea, transparent 40%),
     radial-gradient(circle at 5% 50%, #858cf9, transparent 40%),
     radial-gradient(circle at 0% 80%, #dcccfa, transparent 40%),
-    radial-gradient(circle at 100% 100%, #f2e2f5, transparent 40%),
+    radial-gradient(circle at 100% 100%, #ccd0fc, transparent 40%),
+    radial-gradient(circle at 50% 100%, #e7c6ea, transparent 40%),
     radial-gradient(circle at 0% 100%, #f2e2f5, transparent 40%);
   background-color: #ffffff;
   min-height: 100vh;
@@ -30,7 +31,7 @@ nav {
   border-radius: 40px;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
   z-index: 1000;
 
   color: rgb(43, 43, 43);
@@ -189,6 +190,7 @@ width: 100%;
   padding: 20px;
   border-radius: 20px;
   margin-top: 50px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
 }
 .pending-task-head {
   display: flex;
